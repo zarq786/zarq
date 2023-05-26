@@ -1,0 +1,147 @@
+  /* ... Existing styles ... */
+
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  /* ... Existing styles ... */
+
+.video-container {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    width: fit-content;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .video-slide {
+    margin-right: 20px;
+  }
+  
+  
+  video {
+    width: 100%;
+  }
+  
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  
+  
+  
+  /* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the navigation */
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Style the header section */
+  header {
+    padding: 20px;
+    color: #fff;
+  }
+  
+  /* Style the main sections */
+  section {
+    padding: 50px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  .slider-container {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .slider {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+    
